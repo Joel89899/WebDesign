@@ -1,0 +1,194 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Caveat', cursive;
+    margin: 0;
+    padding: 0;
+}
+.body_ls{
+    background-color: #e7dbc5;
+    background: url(../images/background1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.body_ap{
+    background-color: #eae3ab;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title{
+    text-align: center;
+    font-size: 45px;
+    color:#edc812f6 ;
+    
+}
+
+.formBox_login{
+    width: 330px;
+    padding: 40px 15px;
+    margin: 50px auto;
+    background-color: #edc812af;
+    border-radius: 12px;
+    text-align: center;
+    font-size: 25px;
+}
+    
+form input{
+    width: 90%;
+    border: 1px solid #20335a;
+    padding: 12px 20px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+form [type=text] 
+{
+    font-size: 20px;
+}
+form [type=password] 
+{
+    font-size: 20px;
+}
+form [type=submit] 
+{
+    font-size: 25px;
+    background-color: #6d2c08d5;
+    width: 80%;
+    border-radius: 20px;
+    margin-top: 10px;
+    padding: 8px 0;
+    outline: none;
+    cursor: pointer;
+}
+.login_btn input:hover{
+    background-color: #c75314;
+}
+
+form [type=number]{
+    font-size: 20px;
+}
+form [type=date]{
+    font-size: 20px;
+}
+form [type=time]{
+    font-size: 20px;
+}
+.email_list{
+    font-size: 20px;
+}
+.formBox_signUp{
+    width: 600px;
+    padding: 40px 15px;
+    margin: 50px auto;
+    background-color: #edc812af;
+    border-radius: 12px;
+    text-align: left;
+    font-size: 25px;
+}
+.su_ex button:hover{
+    background-color: #c75314;
+}
+.formBox_signUp input{
+    width: 60%;
+    float:right;
+}
+.su_ex{
+    text-align: center;
+}
+.su_ex input{
+    float: none;
+    font-size: 25px;
+}
+.about_image{
+    width: 50%;
+    height: 250px;
+
+}
+.ab2{
+    float: right;
+}
+.heading{
+    font-size: 33px;
+    text-align: center;
+    color: #c78d2e;
+}
+.about_pic{
+    margin: 3% auto;
+    width: 900px;
+    font-size: 25px;
+}
+.paragraph_txt{
+    margin: 3% auto;
+    width: 550px;
+    font-size: 25px;
+    background-color: rgb(233, 152, 94);
+    border-radius: 10px;
+    text-align: center;
+}
+.home_icon{
+    text-align: center;
+    color: #c78d2e;
+}
+.home_icon a:hover{
+    color: #6d470b;
+}
+.centre{
+    text-align: center;
+}
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 0;
+}
+.home_nav{
+    overflow: hidden;
+    background-color: #c78d2e;
+    border-radius: 8px;
+}
+.home_nav a{
+    text-align: center;
+    padding: 14px 12px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #edc812f6;
+}
+.nava_ex{
+    float: right;
+}
+.nava{
+    float: left;
+}
+.home_nav a:hover{
+    color:#f3e5a2f6 ;
+    background-color: #f79b07;
+}
+.main_pad{
+   background-image: url(../images/style22.jpg);
+   color: rgb(248, 202, 117);
+   font-size: 50px;
+   text-align: center;
+   border-radius: 8px;
+
+}
+.main_txt{
+    background-color: #c78d2e;
+    font-size: 55px;
+    border-radius: 8px;
+    text-align: center;
+    letter-spacing: 10px;
+    color: rgb(248, 202, 117);
+}
+.main_txt img{
+    height: 150px;
+    width:150px;
+}
+.main_txt img:hover{
+    height: 170px;
+    width:170px;
+   
+}

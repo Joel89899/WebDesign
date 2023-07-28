@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Barberall:SignUp</title>
+        <link rel="icon" href="C:\Users\Joel\Desktop\Semester 5\Web Development Application\Project\images\logo.jpg">
+        <link rel="stylesheet" href="css/main.css">
+        <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" rel="stylesheet">
+        <body class="body_ls">
+            <div class="title">
+                <h1> Barberall              
+            </div>
+            
+            <div class="formBox_signUp">
+                <h2>Sign Up</h2>
+                <form action="" method="post">
+                    <div>Sir Name:&nbsp;<input type="text" name="S_name" placeholder="Enter your Sir name"></div>&nbsp;&nbsp;
+                    <div>Given Name(s):&nbsp;<input type="text" name="name(s)" placeholder="Enter your name(s)"></div><br>
+                    <div class="su_ex">
+                        <input type="radio" name="gender" value"male">&nbsp;&nbsp;Male
+                        <input type="radio" name="gender" value"female">Female
+                        <input type="radio" name="gender" value"other" >&nbsp;Other
+                    </div><br>
+                    <div>Set ID:&nbsp;<input type="text" name="Identity" maxlength="10" placeholder="Set your unique Identity "></div><br>
+                    <div>Set Password:&nbsp;<input type="password" name="password" maxlength="10" placeholder="Set strong password"></div><br>
+                    <div>Repeat Password:&nbsp;<input type="password" name="re_password" maxlength="10" placeholder="Repeat strong password"></div><br>
+                    <div class="su_ex">Email:&nbsp;<input type="text" name="email_in" placeholder="(without domain)">&nbsp;@&nbsp;<select name="domain" class="email_list">
+                        <option value="0">--please select--</option>
+                        <option value="1">gmail.com</option>
+                        <option value="2">hotmail.com</option>
+                        <option value="3">yahoo.com</option>
+                        <option value="4">naver.com</option> 
+                    </select></div><br>
+                    <div>Phone number:&nbsp;<input type="number" name="phone_no" maxlength="11"></div><br>
+                    <div>
+                        <input type="checkbox" name="terms" value="info_col">Consent to use of private information<br>
+                        <input type="checkbox" name="privacy" value="info_col">Consent to<a href="./privacy_policy.html">our privacy policy</a> <br><br>
+                        <iframe src="./privacy_policy.html" height="200px" width="400px" margin="200px"></iframe><br><br>
+                        <input type="checkbox" name="terms" value="terms_conditions">Agreement to <a href="./terms_and_conditions.html">terms and conditions</a><br><br>
+                        <iframe src="./terms_and_conditions.html" height="200px" width="400px" margin="200px"></iframe><br>
+                    </div><br>
+                    <div class="su_ex"><a href="./login_page.html"><button type="submit">Sign Up</button></a></div>
+                    
+                </form>
+            </div>
+
+        </body>
+    </head>
+</html>

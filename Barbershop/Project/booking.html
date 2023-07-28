@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Barberall:SignUp</title>
+        <link rel="icon" href="C:\Users\Joel\Desktop\Semester 5\Web Development Application\Project\images\logo.jpg">
+        <link rel="stylesheet" href="css/main.css">
+        <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <body class="body_ls">
+            <div class="title">
+                <h1> Barberall              
+            </div>
+            
+            <div class="formBox_signUp">
+                <h2 class="centre">Booking</h2><br><br>
+                <form action="" method="post">
+                    <div>Reserving Name:&nbsp;<input type="text" name="res_name" placeholder="Enter name"></div>&nbsp;&nbsp;
+                    <div class="su_ex">
+                        <input type="radio" name="gender" value"male">&nbsp;&nbsp;Male
+                        <input type="radio" name="gender" value"female">Female
+                        <input type="radio" name="gender" value"other" >&nbsp;Other
+                    </div><br>
+                    <div> pick date: <input type="date" name="res_date" min="2022-12-04" max="2023-03-30"></div><br>
+                    <div>select time:<input type="time" min="9:00" max="18:00"></div><br>
+                    <div><p class="centre"><b>Select service</b></p></div><br>
+                    <div class="su_ex">
+                        <input type="checkbox" name="service" value"wash">Hair Wash
+                        <input type="checkbox" name="service" value"dye">Hair Dye&nbsp;
+                        <input type="checkbox" name="service" value"cut" >Hair Cut&nbsp;
+                    </div>
+                    <br>
+                    <div>Phone number:&nbsp;<input type="number" name="phone_no" maxlength="11"></div><br>
+                    <div><p>Barbershop Location</p>
+                        <select name="domain" class="email_list">
+                            <option value="0">--please select--</option>
+                            <option value="1">Texas, USA</option>
+                            <option value="2">Chicago, USA</option>
+                            <option value="3">Newyork, USA</option>
+                            <option value="4">Los Angeles,USA </option> 
+                            <option value="5">Itaewon, Seoul South Korea </option> 
+                            <option value="6">Bongpo-ri, Goseong, Seoul South Korea </option> 
+                        </select></div><br>
+                        <div class="su_ex"><a href=" ">
+                            <button type="submit">Book</button>
+                        </a></div>
+                    </div><br>
+                   
+                    
+                </form>
+            </div>
+
+        </body>
+    </head>
+</html>
